@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 310" width="1280" height="310">
+  <rect width="1280" height="310" fill="#120e0b"/>
+  <rect x="0" y="0" width="10" height="310" fill="#9b2d22"/>
+  <text x="36" y="42" fill="#8a7360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="5">PUBLIC TRACES</text>
+  <line x1="36" y1="58" x2="1244" y2="58" stroke="#3d2e24" stroke-width="1"/>
+  <rect x="36" y="78" width="1208" height="48" fill="#1c1612"/>
+  <rect x="36" y="78" width="5" height="48" fill="#9b2d22"/>
+  <text x="60" y="109" fill="#c44536" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">fieldnotes</text>
+  <text x="340" y="109" fill="#ead9c4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="15">Lab manual — chain, leftovers, what blue still sees.</text>
+  <rect x="36" y="134" width="1208" height="48" fill="#1c1612"/>
+  <rect x="36" y="134" width="5" height="48" fill="#9b2d22"/>
+  <text x="60" y="165" fill="#c44536" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">loaders</text>
+  <text x="340" y="165" fill="#ead9c4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="15">Staging and persist in C. Early Bird, COM, eBPF.</text>
+  <rect x="36" y="190" width="1208" height="48" fill="#1c1612"/>
+  <rect x="36" y="190" width="5" height="48" fill="#9b2d22"/>
+  <text x="60" y="221" fill="#c44536" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">havoc-hiddendesktop</text>
+  <text x="340" y="221" fill="#ead9c4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="15">HVNC operator kit for Havoc. CoffeeLdr, inject, rportfwd.</text>
+  <rect x="36" y="246" width="1208" height="48" fill="#1c1612"/>
+  <rect x="36" y="246" width="5" height="48" fill="#9b2d22"/>
+  <text x="60" y="277" fill="#c44536" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">ctf-toolkit</text>
+  <text x="340" y="277" fill="#ead9c4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="15">Scripts and write-ups from Hack The Box machines.</text>
+</svg>

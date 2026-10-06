@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 72" width="1280" height="72">
+  <rect width="1280" height="72" fill="#120e0b"/>
+  <rect x="0" y="0" width="10" height="72" fill="#9b2d22"/>
+  <line x1="36" y1="36" x2="470" y2="36" stroke="#3d2e24" stroke-width="1"/>
+  <text x="640" y="42" fill="#ead9c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="6" text-anchor="middle">OPERATIONS</text>
+  <line x1="810" y1="36" x2="1244" y2="36" stroke="#3d2e24" stroke-width="1"/>
+</svg>
