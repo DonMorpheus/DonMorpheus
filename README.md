@@ -1,74 +1,65 @@
 <div align="center">
-  <img src="assets/banner.png" alt="DonMorpheus — whoami" width="100%" />
+  <img src="assets/banner.png" alt="DonMorpheus — Red Team Hacker | C2 Operations &amp; OPSEC" width="100%" />
 </div>
 
-<p align="center">
-  <strong>Adversary simulation / red team</strong> · authorized labs<br/>
-  Windows · Linux · Active Directory · C2 as a detection problem
-</p>
+<br/>
 
-<p align="center">
-  <a href="https://github.com/DonMorpheus/fieldnotes">fieldnotes</a>
-  ·
-  <a href="https://github.com/DonMorpheus/loaders">loaders</a>
-  ·
-  <a href="https://github.com/DonMorpheus/havoc-hiddendesktop">havoc-hiddendesktop</a>
-  ·
-  <a href="https://github.com/DonMorpheus/ctf-toolkit">ctf-toolkit</a>
-</p>
+I build the kit we operate. Custom BOFs for jobs the stock payload cannot do. C2 software and the infrastructure under it. Operator kits that have to survive a real desktop. 0-day research that is supposed to end in an exploit — not a slide.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/lab-authorized-9b2d22?style=flat-square&labelColor=1c1612" alt="authorized lab"/>
-  <img src="https://img.shields.io/badge/scope-Windows%20%7C%20Linux%20%7C%20AD-c44536?style=flat-square&labelColor=1c1612" alt="scope"/>
-  <img src="https://img.shields.io/badge/open%20to-work-ead9c4?style=flat-square&labelColor=1c1612" alt="open to work"/>
-</p>
+The public repos are the edge of that work. The rest stays in the lab.
 
 ---
 
-### whoami
+## Operations
 
-Operator in authorized labs (own VMs, HTB, GOAD-style forests). I run the chain, then write it down so **blue can hunt it** — leftover artifacts, telemetry, mitigations. Not a blog. Not a highlight reel.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-> Operator labu. Red team. Notatki tak, żeby dało się z nich polować — nie tylko odtwarzać atak.
+### Custom BOFs
+
+In-process operator modules, written for the C2 we actually run. Credentials, inject, persist, HVNC, patches — compiled, loaded, used on a session. If CoffeeLdr, the object file, or the job model is broken, we fix the BOF. We do not screenshot someone else’s repo and call it a capability.
+
+</td>
+<td width="50%" valign="top">
+
+### C2 software &amp; infrastructure
+
+Teamserver, listeners, staging, implants, lab redirectors. Sleep, jitter, channel, what the callback still leaks. C2 is a detection problem as much as a framework: periodicity, process, destination, size versus the binary it pretends to be. We operate it. We break our own OPSEC on purpose and write down what still shows.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Operator kits
+
+Loaders and persist that have to work on a workstation, not in a gist. Early Bird APC, COM TreatAs / ClickOnce, Linux eBPF persist, a HiddenDesktop HVNC port that actually talks back. The kit is for the operator at the console — launch, inject, rportfwd, keep the desktop.
+
+</td>
+<td width="50%" valign="top">
+
+### 0-day research &amp; exploit development
+
+Crash-to-exploit on software in authorized scope. Parsers, services, IPC, third-party Windows and Linux targets. C, taint, crash triage, then the exploit — not a PoC that dies on the next build. Findings stay private until there is a coordinated path. The method is public enough to be judged.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Selected work
+## Public traces
 
-| Repo | What a recruiter is looking at |
-|------|--------------------------------|
-| **[fieldnotes](https://github.com/DonMorpheus/fieldnotes)** | Public lab manual. Kill-chain notes the way an operator actually used them: steps, leftovers, what blue still sees. |
-| **[loaders](https://github.com/DonMorpheus/loaders)** | Lab loaders and persist in C: Early Bird APC, COM TreatAs / ClickOnce (`T1546.015`), Linux eBPF implant (`T1547.006`). |
-| **[havoc-hiddendesktop](https://github.com/DonMorpheus/havoc-hiddendesktop)** | Working Havoc port of HiddenDesktop (HVNC). Stock BOF dies on CoffeeLdr / inject / rportfwd — this tree runs. |
-| **[ctf-toolkit](https://github.com/DonMorpheus/ctf-toolkit)** | HTB / lab scripts from real boxes. Machine-specific. No flags, no VPN configs, no live creds. |
+The notes and code we can show without burning lab infra or a research target.
 
----
-
-### How I work
-
-- **Lab first.** If I did not run it, the note says `RESEARCH`. If I did, it says `LAB`.
-- **Detection in the same breath.** Size vs the real binary, what lands on disk, what `ss` still leaks, which Event IDs fire.
-- **No live C2, no client data, no flags in git.** Public code is for labs you own or have written permission to test.
-
-```text
-$ echo $FOCUS
-Windows internals · Linux persist · AD assumed-breach · operator tooling
-
-$ echo $OPEN_TO
-red team  ·  adversary simulation  ·  detection engineering  ·  pentest
-```
-
----
-
-### Stack I actually use
-
-C · Python · Bash · Windows COM / APC · eBPF · AD (Kerberos trails, assumed-breach) · operator-side C2 modules (Havoc)
-
-Hands gym: Hack The Box (Linux, Windows, AD) plus home lab VMs.
+- **[fieldnotes](https://github.com/DonMorpheus/fieldnotes)** — lab manual. How the chain was run, what was left on disk, what blue still sees.
+- **[loaders](https://github.com/DonMorpheus/loaders)** — staging and persist in C. Early Bird, COM (`T1546.015`), eBPF implant (`T1547.006`).
+- **[havoc-hiddendesktop](https://github.com/DonMorpheus/havoc-hiddendesktop)** — working HVNC operator kit. Stock BOF dies on CoffeeLdr / inject / rportfwd. This tree does not.
+- **[ctf-toolkit](https://github.com/DonMorpheus/ctf-toolkit)** — scripts from boxes we rooted. No flags, no VPN configs, no live credentials.
 
 ---
 
 <p align="center">
-  <sub>Authorized lab &amp; security research only. Not a license to attack systems you do not own.</sub><br/>
-  <sub>Reach me on GitHub — profile marked <strong>available for hire</strong>.</sub>
+  <sub>Authorized lab &amp; security research only. Not a license to attack systems you do not own.</sub>
 </p>
