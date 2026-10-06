@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-labelledby="title desc">
+  <title id="title">DonMorpheus — whoami</title>
+  <desc id="desc">Adversary simulation / red team. Authorized labs. Windows, Linux, Active Directory.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#241c16"/>
+      <stop offset="55%" stop-color="#1c1612"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c44536"/>
+      <stop offset="100%" stop-color="#6e1f18"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c44536" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#c44536" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="0.9" fill="#ead9c4" opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#dots)"/>
+  <rect x="0" y="0" width="1280" height="90" fill="url(#glow)"/>
+  <rect x="0" y="0" width="16" height="360" fill="url(#spine)"/>
+  <rect x="16" y="0" width="2" height="360" fill="#c44536" opacity="0.45"/>
+
+  <!-- top rule -->
+  <text x="40" y="42" fill="#8a7360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3.2">FIELDNOTES</text>
+  <text x="1240" y="42" fill="#8a7360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2.2" text-anchor="end">AUTHORIZED LAB</text>
+  <line x1="40" y1="58" x2="1240" y2="58" stroke="#3d2e24" stroke-width="1"/>
+
+  <!-- prompt -->
+  <text x="40" y="118" fill="#c44536" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">$</text>
+  <text x="68" y="118" fill="#ead9c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">whoami</text>
+  <text x="40" y="168" fill="#ead9c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="48" font-weight="700">DonMorpheus</text>
+  <text x="40" y="212" fill="#c4b09a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">adversary simulation  /  red team</text>
+
+  <!-- right pane -->
+  <rect x="820" y="88" width="420" height="168" rx="8" fill="#15110e" stroke="#3d2e24"/>
+  <circle cx="844" cy="110" r="5" fill="#9b2d22"/>
+  <circle cx="862" cy="110" r="5" fill="#8a7360" opacity="0.45"/>
+  <circle cx="880" cy="110" r="5" fill="#8a7360" opacity="0.28"/>
+  <text x="900" y="115" fill="#8a7360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">session</text>
+
+  <text x="844" y="150" fill="#c44536" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">$</text>
+  <text x="862" y="150" fill="#8a7360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">cat mission</text>
+  <text x="844" y="176" fill="#ead9c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">write it so blue can hunt it</text>
+  <text x="844" y="210" fill="#c44536" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">$</text>
+  <text x="862" y="210" fill="#8a7360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">echo $SCOPE</text>
+  <text x="844" y="236" fill="#ead9c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">Windows · Linux · AD · C2</text>
+
+  <!-- bottom pills -->
+  <line x1="40" y1="268" x2="1240" y2="268" stroke="#3d2e24" stroke-width="1"/>
+
+  <rect x="40" y="288" width="132" height="32" rx="4" fill="#2c231c" stroke="#5a4638"/>
+  <text x="106" y="309" fill="#ead9c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="middle">RECON</text>
+
+  <rect x="184" y="288" width="132" height="32" rx="4" fill="#2c231c" stroke="#5a4638"/>
+  <text x="250" y="309" fill="#ead9c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="middle">ACCESS</text>
+
+  <rect x="328" y="288" width="132" height="32" rx="4" fill="#2c231c" stroke="#5a4638"/>
+  <text x="394" y="309" fill="#ead9c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="middle">PERSIST</text>
+
+  <rect x="472" y="288" width="132" height="32" rx="4" fill="#2c231c" stroke="#5a4638"/>
+  <text x="538" y="309" fill="#ead9c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="middle">C2</text>
+
+  <rect x="616" y="288" width="168" height="32" rx="4" fill="#6e1f18" stroke="#c44536"/>
+  <text x="700" y="309" fill="#ead9c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="middle">DETECTION</text>
+
+  <text x="1240" y="310" fill="#8a7360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="end">no live C2 · no client data</text>
+</svg>
