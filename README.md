@@ -1,9 +1,6 @@
 <div align="center">
-  <img src="assets/header.png" alt="DonMorpheus — Red Team Hacker | C2 Operations &amp; OPSEC" width="100%" />
-</div>
-
-<div align="center">
   <img src="assets/rain-1.gif" alt="packet rain" width="100%" />
+  <img src="assets/header.png" alt="DonMorpheus — Red Team Hacker | C2 Operations &amp; OPSEC" width="100%" />
 </div>
 
 <br/>
@@ -25,10 +22,6 @@ Open to red team / pentest projects and collaboration with people in the field.
 **Operator kits.** Early Bird APC, COM TreatAs / ClickOnce, Linux eBPF persist, HiddenDesktop HVNC for Havoc. Launch, inject, rportfwd, keep the desktop.
 
 **0-day research and exploit development.** Crash-to-exploit on parsers, services and IPC. C, taint, crash triage, then the exploit. Coordinated disclosure when a path exists.
-
-<div align="center">
-  <img src="assets/rain-2.gif" alt="packet rain" width="100%" />
-</div>
 
 <div align="center">
   <img src="assets/adjacent.png" alt="Also in practice" width="100%" />
