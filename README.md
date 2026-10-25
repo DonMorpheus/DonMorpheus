@@ -3,6 +3,13 @@
   <img src="assets/header.png" alt="DonMorpheus — Red Team Hacker | C2 Operations &amp; OPSEC" width="100%" />
 </div>
 
+<div align="center">
+  <a href="https://github.com/DonMorpheus/maelstrom-c2">
+    <img src="https://raw.githubusercontent.com/DonMorpheus/maelstrom-c2/main/assets/banner-2.0.jpg" width="100%" alt="Maelstrom 2.0" />
+  </a>
+  <p><strong><a href="https://github.com/DonMorpheus/maelstrom-c2">Maelstrom 2.0</a></strong> — kernel C2 · ML-KEM-1024 · full EDR evasion guarantee · AI operator</p>
+</div>
+
 <br/>
 
 Red Team Hacker with a wide offensive and defensive range. I build C2, write BOFs, develop exploits, and run APT-style simulation in authorized labs. Hardware, mobile, RF and the network stack sit in the same practice.
@@ -32,6 +39,8 @@ Open to red team / pentest projects and collaboration with people in the field.
 </div>
 
 <p align="center">
+  <a href="https://github.com/DonMorpheus/maelstrom-c2">maelstrom-c2</a>
+  ·
   <a href="https://github.com/DonMorpheus/fieldnotes">fieldnotes</a>
   ·
   <a href="https://github.com/DonMorpheus/loaders">loaders</a>
