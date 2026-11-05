@@ -34,10 +34,6 @@ Open to red team / pentest projects and collaboration with people in the field.
   <img src="assets/adjacent.png" alt="Also in practice" width="100%" />
 </div>
 
-<div align="center">
-  <img src="assets/traces.png" alt="Public traces" width="100%" />
-</div>
-
 <p align="center">
   <a href="https://github.com/DonMorpheus/maelstrom-c2">maelstrom-c2</a>
   ·
